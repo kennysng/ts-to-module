@@ -1,6 +1,6 @@
 import { transpileModule, CompilerOptions } from 'typescript'
 import { JsTranspiler, registerTranspiler } from 'src-to-module'
-import { extname } from 'path'
+import { extname, resolve } from 'path'
 import debug from 'debug'
 
 const log = debug('src-to-module:ts')
@@ -27,5 +27,5 @@ export class TsTranspiler extends JsTranspiler {
   }
 }
 
-setCompilerOptions(require('../tsconfig.json').compilerOptions)
+setCompilerOptions(require(resolve(__dirname, '..', 'tsconfig.json')).compilerOptions)
 registerTranspiler(new TsTranspiler())

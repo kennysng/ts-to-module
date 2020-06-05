@@ -1,5 +1,5 @@
 {
-  "name": "@src-to-module/ts",
+  "name": "ts-to-module",
   "version": "1.0.0",
   "description": "Convert typescript to module",
   "main": "dist/index.js",

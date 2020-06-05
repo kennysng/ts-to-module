@@ -1,6 +1,6 @@
 {
   "name": "ts-to-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert typescript to module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,8 @@
     "url": "https://github.com/kennysng/ts-to-module/issues"
   },
   "files": [
-    "dist"
+    "dist",
+    "tsconfig.json"
   ],
   "homepage": "https://github.com/kennysng/ts-to-module#readme",
   "devDependencies": {

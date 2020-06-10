@@ -3196,10 +3196,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-src-to-module@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/src-to-module/-/src-to-module-1.0.0.tgz#2a70a85fc518306601d04b644e487040cfea8317"
-  integrity sha512-ZX43pAB//zQd5i95r4JBFgpc1CxK70d0fIPQG9myfmzIXRaq20mRdSh4tbKe6KeEHXMEuDYq5Nyc02L6DECLbQ==
+src-to-module@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/src-to-module/-/src-to-module-1.0.2.tgz#0cb05a109d70468da13be8843b36571fbe5790e0"
+  integrity sha512-OhBDNZsDmXfU4qi+LD9N/EyRF7n1veqPqQdTf5GhKDn/kgKIiPhPklJ9LRGV7Qt6GrAV/UeKrSduMkXQEzcPyw==
   dependencies:
     "@types/debug" "^4.1.5"
     "@types/lru-cache" "^5.1.0"

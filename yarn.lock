@@ -4003,12 +4003,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-src-to-module@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/src-to-module/-/src-to-module-2.0.6.tgz#e9718c8a8637f9c01b51ff470591f6b0dd1b3d04"
-  integrity sha512-lpSVEnUp0sAGj/VjWmekTFGi/3iBk6An+Y+TcZ0rwADg5+lGgviSyNI6RfoVCRFNu9NGPrUYXLOCJ919+XAZ5A==
+src-to-module@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/src-to-module/-/src-to-module-2.0.8.tgz#06a886906cfd90df1054b27829f996a425480a09"
+  integrity sha512-cqJI9mKDJsxyzX6/FEhYEH56piy9Oew6xfIyIwEP4tQMD4/WBDclIZncESrTaV4Pf4+nM3X1tLXsRFxJHtjgzA==
   dependencies:
-    "@types/debug" "^4.1.5"
     debug "^4.3.1"
 
 sshpk@^1.7.0:
